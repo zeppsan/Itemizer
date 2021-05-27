@@ -1,0 +1,45 @@
+## Itemizer by zeppsan ##
+#
+# This plugin makes it possible to create custom items in a simple matter
+#
+# In this configuration you can chose what messages should be printed in the
+# chat when a scenario happens.
+
+
+
+
+# Prefix will be printed in front of all messages that the plugin generates.
+prefix: "&f[&aItemizer&f] "
+
+# not-player is printed when any of the commands are called from the console.
+not-player: "&aYou are not a player."
+
+# not-holding-item is printed when the user is not holding any item in the main hand.
+not-holding-item: "&6You are not holding any item."
+
+# configuration-header is the message that shows when typing /getlore
+configuration-header: "&3Lore-configuration for &f{ITEM}"
+
+# index-print prints each lore in /getlore
+index-print: "{INDEX} > {LORE}"
+
+# no-lore-found is printed when no lore is found on the item.
+no-lore-found: "&6I could not find any lore..."
+
+# invalid-index is printed when the user enters an invalid lore index.
+invalid-index: "&6The provided index is not valid."
+
+# invalid-arguments is printed when some of the arguments are not correct.
+invalid-arguments: "&6The arguments were invalid."
+
+# added-lore is printed when a lore is added.
+added-lore: "&aLore was added"
+
+# removed-all-lores is printed when all lores were removed.
+removed-all-lore: "&cAll lores was removed."
+
+# removed-lore is printed when a specific lore was removed.
+removed-lore: "&cLore was removed."
+
+# changed-name is printed when the name is changed.
+changed-name: "&6Item name was changed."

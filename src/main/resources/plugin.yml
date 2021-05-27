@@ -1,0 +1,22 @@
+name: Itemizer
+version: ${project.version}
+main: com.qvarnstrom.tech.itemizer.Itemizer
+api-version: 1.16
+authors: [ Eric ]
+description: Spigot plugin for changing attributes on items.
+website: https://qvarnstrom.tech
+commands:
+    addlore:
+        description: Adds lore to an item. Adds last.
+        permission-message: You do not have permission to add lore.
+    removelore:
+        description: Removes all lores or by specified index.
+        permission-message: You do not have permission to remove lore.
+    editlore:
+        description: Edits an existing lore index.
+        permission-message: You do not have permission to edit lore.
+    getlore:
+        description: Prints the current lore configuration.
+        permission-message: You do not have permission to edit lore.
+    addname:
+        description: Changes the name of an item.
